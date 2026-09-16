@@ -162,12 +162,12 @@ body{
  top: 240px;
 }
 
-@media screen and (max-width:1024px){
+ @media screen and (max-width:1024px){
     .main{
-        left:300px ;
+        left:200px ;
     }
-}
-@media screen and (max-width:768px){
+}  
+ @media screen and (max-width:768px){
    .main{ height: 450px;
     width: 300px;
    }
@@ -189,14 +189,14 @@ body{
     height: 320px;
     width: 300px;
    }
-}
+
 .lower_p button{
     width: 50px;
     height: 45px;
     font-size: 25px;
-}
+} 
 /* 1st row */
-#divide{
+ #divide{
  left: 245px;
  top: 10px;
 }
@@ -217,7 +217,7 @@ body{
  top: 270px;
 }
 /* 2nd row */
-#modulus{
+ #modulus{
  left: 170px;
  top: 10px;
 }
@@ -238,7 +238,7 @@ body{
  top: 270px;
 }
 /* 3rd row */
-#ac{
+ #ac{
  left: 90px;
  top: 10px;
 }
@@ -260,8 +260,8 @@ body{
  width: 130px;
 }
 
-/* 4th row */
-#clear{
+/* 4th row  */
+ #clear{
  left: 10px;
  top: 10px;
 }
@@ -276,10 +276,11 @@ body{
 #btn1{
  left: 10px;
  top: 205px;
-}
+}  
+ } 
 @media screen and (max-width:425px){
 .main{
-    left: 50px;
+    left: 25px;
 }
 }
 @media screen and (max-width:320px){
@@ -287,5 +288,5 @@ body{
         left: 0px;
     }
 
-}
+} 
 
