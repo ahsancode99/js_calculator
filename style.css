@@ -1,0 +1,147 @@
+body{
+    margin: 0%;
+    padding:0% ;
+}
+.main{
+    border: 15px solid black;
+    height: 550px;
+    width: 380px;
+    border-radius:25px ;
+    position: relative;
+    left: 450px;
+
+}
+.upper_p{
+    /* border: 1px solid black; */
+    height: 170px;
+    width: 380px;
+    position: relative;
+
+}
+#result_p{
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 380px;
+    position: absolute;
+    /* overflow: scroll; */
+    top: 100px;
+}
+#result{
+    font-size: 50px;
+
+}
+#calc{
+    /* border: 1px solid black; */
+    border-bottom-style:dotted ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    width: 372px;
+    font-size: 30px;    
+    position: relative;
+    top: 60px;
+}
+/* buttons */
+.lower_p{
+    border-top: 6px solid black;
+    height: 380px;
+    width: 380px;
+   position: relative;
+}
+
+.lower_p button{
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #844BE1;
+}
+
+/* 1st row */
+#divide{
+ left: 290px;
+ top: 30px;
+}
+#multiply{
+ left: 290px;
+ top: 100px;
+}
+#minus{
+ left: 290px;
+ top: 170px;
+}
+#plus{
+ left: 290px;
+ top: 240px;
+}
+#equal{
+ left: 290px;
+ top: 310px;
+}
+/* 2nd row */
+#modulus{
+ left: 195px;
+ top: 30px;
+}
+#btn9{
+ left: 195px;
+ top: 100px;
+}
+#btn6{
+ left: 195px;
+ top: 170px;
+}
+#btn3{
+ left: 195px;
+ top: 240px;
+}
+#dot{
+ left: 195px;
+ top: 310px;
+}
+/* 3rd row */
+#ac{
+ left: 100px;
+ top: 30px;
+}
+#btn8{
+ left: 100px;
+ top: 100px;
+}
+#btn5{
+ left: 100px;
+ top: 170px;
+}
+#btn2{
+ left: 100px;
+ top: 240px;
+}
+#btn0{
+ left: 5px;
+ top: 310px;
+ width: 175px;
+}
+
+/* 4th row */
+#clear{
+ left: 5px;
+ top: 30px;
+}
+#btn7{
+ left: 5px;
+ top: 100px;
+}
+#btn4{
+ left: 5px;
+ top: 170px;
+}
+#btn1{
+ left: 5px;
+ top: 240px;
+}
+
+
